@@ -1,0 +1,97 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffff;
+  margin: 0;
+  background-image: url('fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 40px;
+}
+
+#ivana-cargando {
+  font-size: 2.5rem;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+nav ul li a {
+  color: #00ffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #b9ffff;
+}
+
+main {
+  padding: 40px;
+}
+
+section {
+  text-align: center;
+}
+
+button {
+  background-color: #00ffff;
+  color: #000000;
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b9ffff;
+}
+
+header {
+  padding: 20px 0;
+  text-align: right;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #8c8c8c;
+}
+
+#ivana-container {
+  height: 600px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1 {
+  font-size: 4rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 800;
+  text-shadow: 0 0 20px #00ffff;
+}
+
